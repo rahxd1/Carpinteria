@@ -1,0 +1,1094 @@
+body{
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+height: 100%;
+
+}
+html
+{
+height: 100%;
+}
+#mantenimiento{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.titular{
+color:#006633;
+font-family: Garamond,Georgia;
+font-size:22px;
+text-align:left;
+
+}
+.novedad
+{
+font-size:20px;
+font-family: Garamond,Georgia;
+color:#006633;
+}
+h2{
+font-size:28px;
+font-family: Garamond,Georgia;
+color:#006633;
+margin:5px;
+font-weight:400;
+}
+.grande_rojo{
+font-size:38px;
+font-family: Garamond,Georgia;
+font-weight:bold;
+color:red;
+margin:0;
+}
+.grande_verde{
+font-size:38px;
+font-family: Garamond,Georgia;
+color:#006633;
+
+margin:0;
+}
+h3{
+margin:0;
+}
+.titulo_home_derecha{
+font-size:18px;
+font-family: Verdana;
+font-weight:600;
+color:black;
+}
+.titulo_home_garamond{
+font-size:22px;
+font-family: Garamond,Georgia;
+color:#000;
+margin:5px;
+font-weight:400;
+}
+.titular_home_fondo_gris{
+font-size:28px;
+color:Black; 
+background-color:#F2F2F2 ; 
+line-height:34px; 
+font-family: Garamond;
+}
+
+.titulo_verdana_negrita{
+font-size:16px;
+font-family: Verdana;
+font-weight:600;
+color:black;
+}
+
+
+.titulo_subasta{
+font-size:26px;
+font-family: Verdana;
+margin:0;
+font-weight:600;
+}
+.precio_chollo_flash{
+font-size:22px;
+font-family: Verdana;
+margin:0;
+
+}
+.porcentaje2{
+font-size:24px;
+margin-left:30px;
+}
+.titulo_subasta_comprado{
+font-size:12px;
+font-family: Verdana;
+margin:0;
+font-weight:500;
+}
+.titulo_subasta_producto{
+font-size:24px;
+font-family: Garamond,Georgia;
+margin:0;
+font-weight:600;
+color:#336600;
+}
+.titulo_chollo_producto{
+font-size:26px;
+font-family: Garamond,Georgia;
+margin:0;
+font-weight:600;
+color:#336600;
+}
+.titulo_subasta_producto_visitas{
+font-size:20px;
+font-family: Verdana;
+margin:0;
+font-weight:600;
+color:red;
+}
+.novecento{
+width:960px;
+}
+#pie_mercurio{
+width:960px;
+text-align:center;
+clear:both;
+
+position: relative;
+margin-top: 10px;
+
+}
+
+#menu{
+width:960px;
+}
+#Material img{
+margin:10px;
+}
+#Material{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+#opinion{
+font-size:12px;
+}
+#tabla_opiniones td{
+text-align:left;
+}
+.nombre_opinion{
+font-size:12px;
+
+}
+.texto_opinion{
+font-size:12px;
+color:#666666;
+}
+#tabla_menu td{
+background-color:#336600;
+color:#FFFFFF;
+text-align:center;
+
+}
+#mueble_info{
+position: relative;
+
+width:960px;
+clear:both;
+margin:10px;
+font-size:12px;
+}
+#mueble_info_extendida{
+width:960px;
+clear:both;
+}
+#tabla_menu a{
+background-color:#336600;
+color:#FFFFFF;
+text-align:center;
+
+}
+#contenido_principal{
+position: relative;
+min-height: 100%;
+
+}
+#tabla_menu a:hover{
+background-color:#FFFFFF;
+color:#003300;
+text-align:center;
+}
+#tabla_menu td:hover{
+background-color:#FFFFFF;
+color:#003300;
+text-align:center;
+}
+#tabla_menu{
+width:960px;
+font-size:14px;
+}
+#tabla_menu tr{
+background-color:#336600;
+}
+#tabla_pedido {
+width: 940px;
+
+}
+#tabla_pedido td{
+border:1px solid #edf0ef;
+}
+.total_pedido{
+ border-top:1px solid #edf0ef;
+ background-color:#336600;
+ color:#FFFFFF;
+}
+#tabla_pedido th{
+background-color:#edf0ef;
+color:#000;
+}
+
+#titulo{
+font-family: Garamond,Georgia;
+font-size:36px;
+color:#336600;
+height:40px;
+
+}
+.titulo_catalogo{
+font-size:24px;
+font-family: Garamond,Georgia;
+color:#006633;
+}
+#referencia{
+
+}
+h1{
+font-family: Garamond,Georgia;
+font-size:38px;
+color:#336600;
+height:46px;
+margin:0;
+font-weight:500;
+
+}
+#imagen{
+margin-top:30px;
+
+}
+#div_imagen2{
+text-align:center;
+font-size:10px;
+font-weight:600;
+}
+#texto{
+margin-top:30px;
+font-size:12px;
+width:960px;
+}
+#texto a{
+text-decoration:underline;
+}
+#precio{
+margin-top:30px;
+font-weight:600;
+font-size:14px;
+}
+#medidas{
+text-align:center;
+margin-top:10px;
+font-size:12px;
+font-weight:500;
+
+}
+#medidas table{
+margin-left:auto;
+margin-right:auto;
+}
+#medidas table td{
+height:35px;
+}
+
+#boton_compra{
+margin-top:30px;
+font-size:14px;
+background-color:#006633;
+color:#FFFFFF;
+font-weight:600;
+}
+#boton_compra_medida{
+margin-bottom:5px;
+font-size:14px;
+background-color:#006633;
+color:#FFFFFF;
+font-weight:600;
+}
+.relacionado{
+float:left;
+width:280px;
+text-decoration:none; 
+
+}
+.imagen_presupuesto{
+margin-top:15px;
+margin-bottom:15px;
+
+cursor:pointer;
+vertical-align:top;
+}
+#div_boton_compra{
+margin-top:5px;
+margin-bottom:5px;
+
+}
+
+a{
+text-decoration:none;
+color:#000;
+
+}
+
+.catalogo_subcat{
+float:left;
+width:298px;
+margin:10px;
+height:500px;
+overflow: hidden;
+}
+.catalogo_indice{
+float:left;
+width:290px;
+margin:10px;
+overflow: hidden;
+}
+.catalogo_productos{
+float:left;
+width:298px;
+margin:30px 10px 10px 10px;
+height:250px;
+overflow: hidden;
+}
+.catalogo_videos{
+
+float:left;
+width:370px;
+margin:10px 10px 10px 10px;
+height:140px;
+overflow: hidden;
+}
+.catalogo_default{
+float:left;
+width:298px;
+height:260px;
+overflow: hidden;
+}
+.catalogo_productos_chollos{
+float:left;
+width:298px;
+margin:30px 10px 10px 10px;
+height:250px;
+overflow: hidden;
+}
+#tabla_cesta{
+margin:15px;
+color:#FFFFFF;
+font-weight:600;
+font-size:14px;
+background:transparent url(/images/fondo_cesta.png) no-repeat scroll center top;
+line-height: 35px;
+height:47px;
+}
+.contador{
+
+background:transparent url(/includes/imagenes/countdown_30px.jpg) no-repeat scroll center top;
+line-height:30px;
+text-align:center;
+font-size:16px;
+font-weight:600;
+color:black;
+
+}
+.img_descuento{
+margin-top:5px;
+background:transparent url(/includes/imagenes/descuento.jpg) no-repeat scroll center top;
+line-height:30px;
+
+text-align:left;
+color:#fff;
+
+}
+.porcentaje{
+margin-left: 60px;
+font-size:24px;
+}
+.texto_subcat{
+margin:5px;
+
+}
+#boton_gastos{
+margin-left:20px;
+color:#999999;
+cursor:pointer;
+
+}
+#gastos{
+border:1px solid #CCCCCC;
+margin-top:10px;
+width:960px;
+}
+#gastos table {
+width:500px;
+line-height:20px;
+text-align:center;
+}
+.titulo_producto{
+color:#006633;
+
+}
+img{
+border: none;
+}
+.precio_chollo{
+height:40px;
+font-size:14px;
+font-weight:600;
+color:#F00;
+line-height:20px;
+
+}
+.precio_antes{
+height:40px;
+font-size:14px;
+color:black;
+line-height:20px;
+
+}
+.precio_chollo_rel{
+height:40px;
+font-size:12px;
+font-weight:600;
+color:#F00;
+line-height:20px;
+
+}
+.precio_antes_rel{
+height:40px;
+font-size:12px;
+color:black;
+line-height:20px;
+
+}
+.titulo_concurso{
+color:#5c74a3;
+
+}
+.gris_pequeño{
+color:#666;font-size:10px;
+}
+/* IE6 css fixer v0.4: Fri, 18 Sep 2009 13:12:19 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+.relacionado,
+.catalogo_subcat,
+.catalogo_productos,
+.catalogo_subcat {display:inline;}
+
+/* add zoom:1 to overflow:hidden */
+.catalogo_productos {zoom:1;}
+
+
+.menu_cat{
+
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5%  Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+		color:#FFFFFF;
+	background-color:#006633;
+	}
+.menu_cat ul{
+
+	background:#FFFFFF;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	}
+	.menu_cat li{
+		float:left;
+		padding:0px;
+			
+
+		}
+	.menu_cat li a{
+		
+		border:1px solid #e3e1e1;
+		color:#666666;
+		display:block;
+		font-weight:normal;
+		font-size:11px;
+		line-height:25px;
+		margin:0px;
+		padding:0px 10px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menu_cat li a:hover, .menu_cat ul li:hover a{
+			background: #EEEEEE ;
+			color:#666666;
+			text-decoration:none;
+			}
+	.menu_cat li ul{
+	border:1px solid #49453B;
+		background:#FFFFFF;
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		
+		position:absolute;
+		width:300px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu_cat li:hover ul{
+		display:block;
+		
+		}
+	.menu_cat li li {
+		/*background:url('images/sub_sep.gif') bottom left no-repeat;*/
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:300px;
+		}
+	.menu_cat li:hover li a{
+		background:none;
+		
+		}
+	.menu_cat li ul a{
+		display:block;
+		height:25px;
+		font-size:11px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menu_cat li ul a:hover, .menu li ul li:hover a{
+			background:#EEEEEE ;
+			border:0px;
+			color:#666666 ;
+			text-decoration:none;
+			}
+	.menu_cat p{
+		clear:left;
+		}	
+
+		.menu_activo{
+			
+
+			border:1px solid #e3e1e1 !important;
+			line-height:23px !important;
+            
+            color:#666666 !important;
+						
+			font-weight:bold !important;
+			text-decoration:underline !important;
+			background:#EEEEEE !important;
+			}	
+			
+#menu_categorias{
+
+	margin-top:2px;
+
+	}
+
+.menu_categorias{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5% Verdana, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	}
+.menu_categorias ul{
+	background:#ffffff;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.menu_categorias li{
+		float:left;
+		padding:0px;
+		}
+	.menu_categorias li a{
+		background:#ffffff ;
+		color:#666666;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menu_categorias li a:hover, .menu_categorias ul li:hover a{
+			background: #EEEEEE ;
+			color:#666666;
+			text-decoration:none;
+			}
+	.menu_categorias li ul{
+		background:#ffffff;
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu_categorias li:hover ul{
+		display:block;
+		text-decoration:none;
+		}
+	.menu_categorias li li {
+		/*background:url('images/sub_sep.gif') bottom left no-repeat;*/
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+	.menu_categorias li:hover li a{
+		background:none;
+		
+		}
+	.menu_categorias li ul a{
+		display:block;
+		height:25px;
+		font-size:11px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menu_categorias li ul a:hover, .menu li ul li:hover a{
+			background:#ffffff url('images/hover_sub.gif') center left no-repeat;
+			border:0px;
+			color:#666666;
+			text-decoration:none;
+			}
+
+	.menu_categorias p{
+		clear:left;
+		}	
+	.clearit {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	clear: both;
+}
+
+/* BUBBLE PLASTIC HORIZONTAL MENU */
+
+.bubplastic.horizontal {
+	width: 100%;
+	height: 27px;
+	margin: 0;
+	padding: 0;
+	background: #ffffff url(images/bg-bubplastic.gif) top left repeat-x;
+}
+.bubplastic.horizontal ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bubplastic.horizontal ul li {
+
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.horizontal ul li a {
+  
+	display: block;
+	height: 27px;
+	padding-left: 9px;
+	float: left;
+	font-size: 90%;
+	text-transform: uppercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.bubplastic.horizontal ul li a span.menu_ar {
+	display: block;
+	float: left;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 13px;
+	background: transparent url(images/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+.bubplastic.horizontal ul li span.menu_ar_busq {
+	display: block;
+	float: left;
+	height: 22px;
+	padding-top: 1px;
+	padding-right: 15px;
+	background: transparent url(images/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+/* END BUBBLE PLASTIC HORIZONTAL MENU */
+
+
+
+/* BUBBLE PLASTIC VERTICAL MENU */
+
+.bubplastic.vertical {
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.bubplastic.vertical ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bubplastic.vertical ul li {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.vertical ul li a {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding-left: 35px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",helvetica,"microsoft sans serif",arial,sans-serif;
+	font-size: 70%;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.vertical ul li a span.menu_ar {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 35px;
+	background: transparent url(images/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+/* END BUBBLE PLASTIC VERTICAL MENU */
+
+
+
+/* AQUA HOVER */
+.bubplastic.aqua ul li a:hover,
+.bubplastic.aqua ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-aqua.gif) top left no-repeat;
+}
+.bubplastic.aqua ul li a:hover span.menu_ar,
+.bubplastic.aqua ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-aqua.gif) top right no-repeat;
+}
+
+
+/* BLUE HOVER */
+.bubplastic.blue ul li a:hover,
+.bubplastic.blue ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-blue.gif) top left no-repeat;
+}
+.bubplastic.blue ul li a:hover span.menu_ar,
+.bubplastic.blue ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-blue.gif) top right no-repeat;
+}
+
+
+/* GRAY HOVER */
+.bubplastic.gray ul li a:hover,
+.bubplastic.gray ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-gray.gif) top left no-repeat;
+}
+.bubplastic.gray ul li a:hover span.menu_ar,
+.bubplastic.gray ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-gray.gif) top right no-repeat;
+}
+
+
+/* LIME HOVER */
+.bubplastic.lime ul li a:hover,
+.bubplastic.lime ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-lime.gif) top left no-repeat;
+}
+.bubplastic.lime ul li a:hover span.menu_ar,
+.bubplastic.lime ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-lime.gif) top right no-repeat;
+}
+
+
+/* ORANGE HOVER */
+.bubplastic.orange ul li a:hover,
+.bubplastic.orange ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-orange.gif) top left no-repeat;
+}
+.bubplastic.orange ul li a:hover span.menu_ar,
+.bubplastic.orange ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-orange.gif) top right no-repeat;
+}
+
+
+/* PINK HOVER */
+.bubplastic.pink ul li a:hover,
+.bubplastic.pink ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-pink.gif) top left no-repeat;
+}
+.bubplastic.pink ul li a:hover span.menu_ar,
+.bubplastic.pink ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-pink.gif) top right no-repeat;
+}
+
+
+/* PURPLE HOVER */
+.bubplastic.purple ul li a:hover,
+.bubplastic.purple ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-purple.gif) top left no-repeat;
+}
+.bubplastic.purple ul li a:hover span.menu_ar,
+.bubplastic.purple ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-purple.gif) top right no-repeat;
+}
+
+
+/* RED HOVER */
+.bubplastic.red ul li a:hover,
+.bubplastic.red ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-red.gif) top left no-repeat;
+}
+.bubplastic.red ul li a:hover span.menu_ar,
+.bubplastic.red ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-red.gif) top right no-repeat;
+}
+
+#test li {
+	display: block;
+	border: solid 1px red;
+}	
+
+.nuevo_comentario_paris
+{
+    display:none;
+    width: 520px;
+    clear:both; 
+    padding-top:30px;
+   
+}
+
+.total_comentarios
+{
+    width: 520px; 
+    position: relative; 
+    float: left;
+    margin-top:10px;
+    font-size:10px;
+}
+
+.votos
+{
+    width:53px;
+    font-size:24px;
+    
+    color:#666;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    margin-right:20px;
+    height:140px;
+    
+    
+}
+.votos_mas
+{
+    width:53px;
+    font-size:24px;
+    
+    color:#666;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    margin-right:20px;
+    height:40px;
+    
+    
+}
+.boton_ok
+{
+    float:left;
+    cursor:pointer;
+line-height: 32px;
+}
+.boton_facebook
+{
+    float:left;
+    width:200px;
+    margin:0px 5px 0px 30px;
+    color:#666;
+    font-size:11px;
+    line-height:30px;
+    cursor:pointer;
+}
+.clear
+{
+    border-bottom:1px solid #006633;
+    clear:both;
+    margin-bottom:5px;
+}
+.participacion_paris
+{
+    clear:both;
+    width:620px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.participacion_paris_mas_votados
+{
+    clear:both;
+    width:320px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.clear_blanc
+{
+
+    clear:both;
+    margin-bottom:5px;
+}
+
+        .button_paris
+        {
+            background: transparent url('/mercurio_imagenes/fondo_boton_azul.png') no-repeat scroll top right;
+            font-size: 13px;
+            display: block;
+            line-height: 32px;
+            height: 35px;
+            width: 130px;
+            color: #000;
+            cursor: pointer;
+            border: 0;
+            font-weight: 600;
+            font-family: Verdana;
+            float: left;
+        }
+        .button_paris:hover
+        {
+            background: transparent url('/mercurio_imagenes/fondo_boton_azul.png') no-repeat scroll top right;
+            font-size: 13px;
+            text-decoration: underline;
+            display: block;
+            height: 35px;
+            line-height: 32px;
+            width: 130px;
+            color: #000;
+            cursor: pointer;
+            border: 0;
+            font-weight: 600;
+            font-family: Verdana;
+            float: left;
+        }
+        .comentarios
+        {
+            margin-left: 30px;
+            font-size: 11px;
+            color: #666;
+        }
+      
+.button_grande
+{
+background: transparent url('/images/button_grande.png') no-repeat scroll top right; 
+font-size:16px;
+display: block;
+line-height: 30px;
+width:253px;
+color:#fff;
+height:37px;
+cursor: pointer;
+border: 0;
+font-weight: 700;
+font-family: Verdana;
+}
+.button_grande:hover
+{
+background: transparent url('/images/button_grande.png') no-repeat scroll top right; 
+font-size:16px;
+text-decoration: underline;
+display: block;
+line-height: 30px;
+height:37px;
+width:253px;
+color:#fff;
+cursor: pointer;
+border: 0;
+font-weight: 700;
+font-family: Verdana;
+}
+
+
+
+.button
+{
+background: transparent url('/images/button.png') no-repeat scroll top right; 
+font-size:16px;
+display: block;
+line-height: 30px;
+height:37px;
+width:159px;
+color:#fff;
+cursor: pointer;
+border: 0;
+font-weight: 700;
+font-family: Verdana;
+}
+.button:hover
+{
+background: transparent url('/images/button.png') no-repeat scroll top right; 
+font-size:16px;
+text-decoration: underline;
+display: block;
+line-height: 30px;
+width:159px;
+height:37px;
+color:#fff;
+cursor: pointer;
+border: 0;
+font-weight: 700;
+font-family: Verdana;
+}
+
+.enlace_boton
+{
+   color:#fff; 
+   
+}
+
+.enlace_boton:hover
+{
+   color:#fff; 
+   text-decoration: underline;
+}
+.button_amigos
+{
+background: transparent url('/images/fbopinion.png') no-repeat scroll top right; 
+font-size:16px;
+display: block;
+line-height: 30px;
+height:37px;
+width:159px;
+color:#fff;
+cursor: pointer;
+border: 0;
+font-weight: 700;
+font-family: Verdana;
+}

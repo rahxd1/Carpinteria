@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<!-- saved from url=(0061)https://es.foursquare.com/button.html?vid=18343755&size=small -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" value="noindex,nofollow,noarchive">
+
+    <title>Add to foursquare</title>
+    <style type="text/css">
+      body {
+        margin:0;
+        padding:0;
+      }
+      
+      #sq4Button {
+        background:none repeat scroll 0 0 transparent;
+        border:none;
+        margin:0;
+        outline:none;
+        overflow:visible;
+        padding:0;
+        
+        text-indent:-999em;
+        display:block;
+        width:163px;
+        height:25px;
+      }
+      
+      #sq4Button.white {
+        background: url('/img/addToFoursquare_white.png') no-repeat scroll 0 0 transparent;
+      }
+      
+      #sq4Button.white:hover {
+        background: url('/img/addToFoursquare_white.png') no-repeat scroll 0 -25px transparent;
+      }
+      
+      #sq4Button.white:active {
+        background: url('/img/addToFoursquare_white.png') no-repeat scroll 0 -50px transparent;
+      }
+      
+      #sq4Button.dark {
+        background: url('/img/addToFoursquare_black.png') no-repeat scroll 0 0 transparent;
+      }
+      
+      #sq4Button.dark:hover {
+        background: url('/img/addToFoursquare_black.png') no-repeat scroll 0 -25px transparent;
+      }
+      
+      #sq4Button.dark:active {
+        background: url('/img/addToFoursquare_black.png') no-repeat scroll 0 -50px transparent;
+      }
+      
+      #sq4Button.blue {
+        background: url('/img/addToFoursquare_blue.png') no-repeat scroll 0 0 transparent;
+      }
+      
+      #sq4Button.blue:hover {
+        background: url('/img/addToFoursquare_blue.png') no-repeat scroll 0 -25px transparent;
+      }
+      
+      #sq4Button.blue:active {
+        background: url('/img/addToFoursquare_blue.png') no-repeat scroll 0 -50px transparent;
+      }
+
+      #sq4Button.small {
+        background: url('/img/addToFoursquare_small.png') no-repeat scroll 0 0 transparent;
+        width: 50px;
+        height: 20px;
+      }
+
+      #sq4Button.small:hover {
+        background: url('/img/addToFoursquare_small.png') no-repeat scroll 0 -20px transparent;
+
+      }
+
+      #sq4Button.small:active {
+        background: url('/img/addToFoursquare_small.png') no-repeat scroll 0 -40px transparent;
+      }
+    </style>
+  <meta http-equiv="Content-Language" content="es">
+
+</head>
+  <body class="smartling-es">
+    <a id="sq4Button" href="https://es.foursquare.com/button.html?vid=18343755&size=small#" onclick="openTip(); return false;" class="small">Add to foursquare</a>
+    
+    <script type="text/javascript">
+      function mapAttributes(attributes) {
+        var attrs = attributes.split('&');
+        var attrsMap = {};
+        
+        for(var i in attrs) {
+          var keyval = attrs[i].split('=');
+          attrsMap[keyval[0]] = keyval[1];
+        }
+        
+        return attrsMap;
+      }
+      
+      function openTip() {
+        window.open('http://' + window.location.host + '/remote_todo' + window.location.search,
+                      '_blank',
+                      'toolbar=0,status=0,height=380,width=650,scrollbars=no,resizable=no');
+      }
+      
+      function getColor(attrs) {
+        var color = attrs.color;
+        if((typeof color == 'undefined') || (color != 'white' && color != 'dark' && color != 'blue')) 
+          color = '';
+        return color;
+      }
+      
+      function getSize(attrs) {
+        var size = attrs['size'];
+        if(typeof size == 'undefined' || size != 'small')
+          size = '';
+        return size;
+      }
+
+      function determineClass(attrs){
+        var size = getSize(attrs);
+        if(size != '') return size;
+
+        var color = getColor(attrs);
+        if(color != '') return color;
+
+        return 'small';
+      }
+
+      (function(){
+        var attrs = mapAttributes(window.location.search.substr(1));
+        document.getElementById('sq4Button').className = determineClass(attrs);
+      })();
+    </script>
+  
+</body></html>
